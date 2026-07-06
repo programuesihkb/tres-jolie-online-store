@@ -13,11 +13,12 @@ const PaymentSummary = ({ checkoutItems }: { checkoutItems: CheckoutItem[] }) =>
   return (
     <Box
       sx={{
-        position: 'sticky',
+        position: { xs: 'static', md: 'sticky' },
         top: 32,
         alignSelf: 'flex-start',
-        p: 4,
-        borderLeft: '1px solid',
+        p: { xs: 3, md: 4 },
+        borderLeft: { xs: 'none', md: '1px solid' },
+        borderTop: { xs: '1px solid', md: 'none' },
         borderColor: 'rgba(0,0,0,0.1)',
       }}
     >

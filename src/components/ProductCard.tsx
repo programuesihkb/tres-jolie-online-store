@@ -119,12 +119,13 @@ const ProductCard = ({ product }: { product: productType }) => {
           </Typography>
         </Box>
 
-        <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
+        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, gap: 1, alignItems: { xs: 'stretch', sm: 'center' } }}>
 
           <Box
             sx={{
               display: 'flex',
               alignItems: 'center',
+              justifyContent: 'center',
               border: '1px solid',
               borderColor: 'rgba(0,0,0,0.1)',
               height: '40px',

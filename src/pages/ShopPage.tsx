@@ -38,7 +38,7 @@ const ShopPage = () => {
 
       <Box sx={{
         display: 'grid',
-        gridTemplateColumns: '1fr 7fr',
+        gridTemplateColumns: { xs: '1fr', sm: '220px 1fr' },
         minHeight: '100%',
       }}>
         <CategoriesSidebar setSelectedCategory={setSelectedCategory} categorySlugs={categories.map(c => c.slug)} />
