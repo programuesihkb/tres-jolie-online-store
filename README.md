@@ -1,6 +1,9 @@
 # Tres Jolie — Online Shopping Store
 
-A single-page e-commerce storefront built with React, TypeScript, and Material UI. Browse products by category, manage a shopping cart, and check out — all backed by the [DummyJSON](https://dummyjson.com/) products API.
+A e-commerce storefront built with React, TypeScript, and Material UI. Browse products by category, manage a shopping cart, and check out — all backed by the [DummyJSON](https://dummyjson.com/) products API.
+
+## Link to vercel deployment
+[text](https://tres-jolie-online-store.vercel.app/)
 
 ## Features
 
@@ -53,7 +56,3 @@ The app runs at `http://localhost:5173` by default.
 ## Data Source
 
 Product data is fetched live from the public [DummyJSON Products API](https://dummyjson.com/products) — no backend or API key is required.
-
-## Deployment
-
-This project deploys as a static site (e.g. on [Vercel](https://vercel.com)). Since routing is handled client-side by `react-router`, the hosting platform must be configured to rewrite unknown paths to `index.html` for deep links to work.
